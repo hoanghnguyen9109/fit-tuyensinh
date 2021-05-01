@@ -801,7 +801,7 @@ p {
   .header-hero-content .main-btn {
     margin-top: 40px; }
 
-.header-hero-image {}
+/* .header-hero-image {} */
   .header-hero-image img {
     max-width: 650px; }
     @media (max-width: 767px) {
@@ -1394,7 +1394,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url(../images/footer-bg.svg);
+  background-image: url(https://hoanghnguyen9109.github.io/fit-tuyensinh/assets/images/footer-bg.svg);
   background-position: top center;
   z-index: -1;
   background-size: cover; }
