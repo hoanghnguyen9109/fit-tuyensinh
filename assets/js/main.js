@@ -87,6 +87,7 @@ $(function () {
     //===== testimonial active
 
     $('.testimonial-active').slick({
+        autoplay: true,
         dots: true,
         speed: 800,
         arrows: false,
