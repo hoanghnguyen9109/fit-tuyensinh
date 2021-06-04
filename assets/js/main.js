@@ -16,9 +16,11 @@ $(function () {
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
             $(".navbar .navbar-brand img").attr("src", "https://hoanghnguyen9109.github.io/fit-tuyensinh/FIT-TDC_logo.png");
+            $(".navbar .navbar-brand img").css('height', '80px');
         } else {
             $(".navbar-area").addClass("sticky");
             $(".navbar .navbar-brand img").attr("src", "https://hoanghnguyen9109.github.io/fit-tuyensinh/FIT-TDC_logo.png");
+            $(".navbar .navbar-brand img").css('height', '50px');
         }
     });
 
