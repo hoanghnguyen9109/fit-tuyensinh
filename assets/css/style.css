@@ -1245,7 +1245,7 @@ p {
 
 .testimonial-active .slick-dots {
   margin: 0 auto; 
-    position: absolute;top: -35px;left: 50%;transform: translateX(-50%);
+    position: absolute;top: -30px;left: 50%;transform: translateX(-50%);
 }
   .testimonial-active .slick-dots li {
     display: inline-block;
