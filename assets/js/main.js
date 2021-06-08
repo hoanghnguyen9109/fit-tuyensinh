@@ -90,6 +90,7 @@ $(function () {
 
     $('.testimonial-active').slick({
         autoplay: true,
+        focusOnSelect: true,
         dots: true,
         speed: 800,
         arrows: false,
