@@ -1185,6 +1185,7 @@ p {
      08.TESTIMONIAL css 
 ===========================*/
 .single-testimonial {
+  position: relative;
   background-color: #fff;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
   -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
@@ -1211,7 +1212,6 @@ p {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-      position: relative;
 }
 .single-testimonial::before {
             content: "\f10d";
