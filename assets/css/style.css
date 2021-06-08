@@ -1214,12 +1214,14 @@ p {
     transition: all 0.3s ease-out 0s;
 }
 .single-testimonial::before {
-            content: "\f10d";
-            font: normal normal normal 14px/1 FontAwesome;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
+    content: "\f10d";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5em;
+    color: #FE7A7B;
+}
   .single-testimonial .testimonial-review .star ul li {
     display: inline-block;
     font-size: 16px;
