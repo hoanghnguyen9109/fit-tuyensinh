@@ -1210,7 +1210,16 @@ p {
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+    transition: all 0.3s ease-out 0s;
+      position: relative;
+}
+.single-testimonial::before {
+            content: "\f10d";
+            font: normal normal normal 14px/1 FontAwesome;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
   .single-testimonial .testimonial-review .star ul li {
     display: inline-block;
     font-size: 16px;
